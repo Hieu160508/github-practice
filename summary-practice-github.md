@@ -207,20 +207,20 @@ Kiểm tra lại toàn bộ nhánh (local + remote). Nếu mọi thứ đúng, c
 *Tài liệu này ghi lại 1 vòng đầy đủ: tạo repo → clone → push trực tiếp → tạo nhánh → PR → merge → dọn dẹp. Đây chính là flow làm việc phổ biến nhất khi làm việc nhóm trên GitHub.*
 
 ## Upload file từ máy tính lên Github
-Bước 1: Nếu đang đứng trong repo github-practice. Kiểm tra đường dãn: 
+- Bước 1: Nếu đang đứng trong repo github-practice. Kiểm tra đường dãn: 
 ```bash
 pwd
 ```
   -> Nó sẽ ra đường dẫn `/home/ubuntu/github-practice`
-Bước 2: Di chuyển file cần up vào `/home/ubuntu/github-practice` (trên máy tính)
-Bước 3: Chạy lần lượt:
+- Bước 2: Di chuyển file cần up vào `/home/ubuntu/github-practice` (trên máy tính)
+- Bước 3: Chạy lần lượt:
 ```bash
 git status
 git add <tên-file>
 git commit -m "..."
 ```
 
-Bước 4: Đẩy các commit vừa thay đổi lên main
+- Bước 4: Đẩy các commit vừa thay đổi lên main
 ```bash
 git push origin main
 ```
