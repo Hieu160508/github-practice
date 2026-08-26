@@ -231,5 +231,6 @@ Chạy lần lượt:
 git status 'kiểm tra'
 git rm tên_file
 git commit -m "..."
+git pull --rebase origin main
 git push origin main
 ```
